@@ -43,4 +43,5 @@ yarn-error.log*
 
 
 ### Docker ###
-.dockerignore
+.dockerignore.DS_Store
+**/.DS_Store
