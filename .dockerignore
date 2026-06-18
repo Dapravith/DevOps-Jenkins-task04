@@ -1,21 +1,21 @@
-# Dependencies - don't copy node_modules, will be installed in container
+# Dependencies
 node_modules
-npm-debug.log
-npm-error.log
-yarn-error.log
+npm-debug.log*
+npm-error.log*
+yarn-error.log*
 
 # Git files
 .git
 .gitignore
 .gitattributes
 
-# Environment files - security: never copy .env to Docker image
+# Environment files
 .env
 .env.local
 .env.*.local
 .env.production
 
-# IDE and editors
+# IDE and OS files
 .vscode
 .idea
 *.swp
@@ -40,14 +40,12 @@ tests
 *.test.js
 *.spec.js
 
-# CI/CD
+# CI/CD files
 .github
 .gitlab-ci.yml
 .travis.yml
 Jenkinsfile
 
-# Package managers
+# Package manager cache
 .npm
 .yarn
-pnpm-lock.yaml
-yarn.lock
