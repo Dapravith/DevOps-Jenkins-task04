@@ -18,7 +18,6 @@ pipeline {
             steps {
                 echo 'Start building Docker Image'
                 sh '''
-                    cd NodeAPI
                     docker build -t dapravith99/nodejs-api:v1.0 .
                 '''
                 echo 'Build Complete'

@@ -1,21 +1,18 @@
-# Dependencies
 node_modules
+NodeAPI/node_modules
 npm-debug.log*
 npm-error.log*
 yarn-error.log*
 
-# Git files
 .git
 .gitignore
 .gitattributes
 
-# Environment files
 .env
 .env.local
 .env.*.local
 .env.production
 
-# IDE and OS files
 .vscode
 .idea
 *.swp
@@ -24,28 +21,23 @@ yarn-error.log*
 .DS_Store
 Thumbs.db
 
-# Build artifacts
 dist
 build
 coverage
 
-# Documentation
 README.md
 CHANGELOG.md
 docs
 
-# Test files
 test
 tests
 *.test.js
 *.spec.js
 
-# CI/CD files
 .github
 .gitlab-ci.yml
 .travis.yml
 Jenkinsfile
 
-# Package manager cache
 .npm
 .yarn
